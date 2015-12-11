@@ -13,7 +13,7 @@
     "token",
     "authentication"
   ],
-  "author": "LoyaltyOne",
+  "author": "Umair Kayani",
   "license": "ISC",
   "dependencies": {
     "assert-plus": "^0.2.0",
