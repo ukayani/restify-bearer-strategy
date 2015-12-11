@@ -1,0 +1,38 @@
+{
+  "name": "restify-bearer-strategy",
+  "version": "1.0.0",
+  "description": "Module that makes it easy to do oauth 2.0 token introspection in a restify API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "keywords": [
+    "restify",
+    "oauth",
+    "bearer",
+    "token",
+    "authentication"
+  ],
+  "author": "LoyaltyOne",
+  "license": "ISC",
+  "dependencies": {
+    "assert-plus": "^0.2.0",
+    "passport": "^0.3.2",
+    "passport-http-bearer": "^1.0.1",
+    "ramda": "^0.18.0",
+    "restify": "^4.0.3",
+    "restify-errors": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "gulp": "^3.9.0",
+    "gulp-check-deps": "^1.3.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.2.0",
+    "isparta": "^4.0.0",
+    "nock": "^3.4.0",
+    "supertest": "^1.1.0",
+    "supertest-as-promised": "^2.0.2"
+  }
+}
